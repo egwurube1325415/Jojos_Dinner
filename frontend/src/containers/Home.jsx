@@ -9,7 +9,7 @@ import { fetchItems } from "../reducks/items/operations";
 import { getItems } from "../reducks/items/selectors";
 import { getCarts, getSubtotal } from "../reducks/carts/selectors";
 import { fetchFromLocalStorage } from "../reducks/carts/operations";
-import ImgMainImage from "../assets/img/main-image.png";
+import background from "../assets/img/background.png";
 import queryString from "query-string";
 
 const Home = () => {
@@ -59,7 +59,7 @@ const Home = () => {
       <Header />
 
       <section class="main-visual">
-      <img src={ImgMainImage} alt="" />
+      <img src={background} alt="" />
       </section>
       <section class="content">
         {showCartList ? (

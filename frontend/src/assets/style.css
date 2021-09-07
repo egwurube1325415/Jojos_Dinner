@@ -33,7 +33,7 @@ ul.category li a:visited {
 
 ul.category li.active a,
 ul.category li.active a:visited {
-  background-color: black;
+  background-color: #A89158;
   color: white;
 }
 
