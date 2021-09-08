@@ -7,7 +7,7 @@ var baseURL;
 //     baseURL = "http://127.0.0.1:8000";
 // }
 
-baseURL = 'https://jojo-backend.herokuapp.com/'
+baseURL = 'https://jojo-backend.herokuapp.com/';
 
 const api = axios.create({
   baseURL: baseURL,
