@@ -76,7 +76,7 @@ ul.items li {
 
 ul.items li img.item-image {
   width: 30%;
-  height: 168px;
+  height: auto;
 }
 
 ul.items li .info {
@@ -202,8 +202,7 @@ ul.items li .info .info-bottom .number .minus {
 @media screen and (max-width: 450px) {
   ul.category li a, ul.category li a:visited {
     border: 1px solid #707070;
-    display: inline-block;
-    
+    display: inline-block;    
     vertical-align: middle;
     padding: 5px 5px 5px;
     margin-right: 15px;
